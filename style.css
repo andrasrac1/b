@@ -22,7 +22,7 @@ header{
 .logo{
     cursor: pointer;
     margin-right: auto;
-    color: aqua;
+    color: rgb(254, 254, 254);
 }
 
 .nav__links li {
