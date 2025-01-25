@@ -60,6 +60,6 @@ button:hover{
     color: #acd8ff;
 }
 
-.png, li, ul{
+.png{
     list-style-image: url(matyas-slide.png);
 }
