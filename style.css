@@ -1,4 +1,59 @@
 *{
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 29, 29);
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+color: rgb(24, 192, 192);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+button {
+    color: aliceblue;
+    background: #27acd557;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+
+   
+}
+
+button:hover{
+    background: #29a5cb;
+    transition: all 0.3s ease 0s;
+    color: #acd8ff;
 }
