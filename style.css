@@ -62,4 +62,5 @@ button:hover{
 
 .png li ul {
     list-style: url(/matyas-slide.png);
+    list-style:image(matyas-slide);
 }
